@@ -4,7 +4,7 @@ const fs = require('fs');
 const qrcode = require('qrcode-terminal');
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "YOUR_API_KEY",
 });
 const openai = new OpenAIApi(configuration);
 const client = new Client();
